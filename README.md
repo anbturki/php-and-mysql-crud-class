@@ -1,0 +1,1 @@
+##the class provides basics functionality to deal with a MySQL databases
