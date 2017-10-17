@@ -6,5 +6,6 @@ This class  provides basics functionality to deal with MySQL databases such as  
 
 ```PHP
 $db = new Databaes();
-$db->table("users")->select(['id','name']);
+$users = $db->table("users")->select(['id','name']);
+var_dump($users);
 ```
